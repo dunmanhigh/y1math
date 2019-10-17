@@ -1,9 +1,9 @@
-# What are the factors of 18?
-# factor: an integer which when multiplied with another integer, results in the product 18. 
-# Hence when 18 is divided by this number, the dividend is an integer and there are no remainders.
+# What are the factors of 10?
+# factor: an integer which when multiplied with another integer, results in the product 10. 
+# Hence when 10 is divided by this number, the dividend is an integer and there are no remainders.
 
-num = 18
+num = 10
 
 for i in range(1, num+1):  
   if num % i == 0:
-    print(i, end=' ')
+    print(i, end='')
