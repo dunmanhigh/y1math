@@ -1,5 +1,7 @@
-# Find the HCF of num1 and num2, using the listing method.
+# Find the even numbers from 1 to 100
 
-num1 = 
-num2 = 
+num = 123
+for i in range(1, num+1):
+  if i % 2 == 0:
+    print(i, end=' ')
 
