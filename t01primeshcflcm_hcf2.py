@@ -1,5 +1,5 @@
-# Find the Highest Common Factor (HCF) of a and b.
+# Find the Highest Common Factor (HCF) of y and z.
 
-a = int(input("a: "))
-b = int(input("b: "))
+y = int(input("y: "))
+z = int(input("z: "))
 
