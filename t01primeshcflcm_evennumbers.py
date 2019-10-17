@@ -1,4 +1,4 @@
-# What are the even numbers from 1 to num?
+# What are the even numbers from 1 to 1000?
 
 num = 123
 for i in range(1, num+1):
