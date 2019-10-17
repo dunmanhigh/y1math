@@ -1,7 +1,5 @@
-# Is num an integer?
-
+# Find even numbers from 1 to 1000
 num = 123
-print(type(num))
-
-num = 3.21
-print(type(num))
+for i in range(1, num+1):
+  if i % 2 == 0:
+    print(i, end=' ')
