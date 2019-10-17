@@ -1,6 +1,10 @@
-# Generate oscillating pattern 1, -1, 2, -2, 3, -3, ... k times
+# Generate multiples of 7 from 1 to 100
 
-k = 10
+START = 1
+END = 100
+num = 7
 
-for i in range(1, k+1):
+for i in range(START, END+1):
+  if i % num == 0:
+    print(i, end=' ')
   
