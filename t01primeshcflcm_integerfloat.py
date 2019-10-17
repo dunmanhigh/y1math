@@ -1,7 +1,10 @@
-# Is num an integer?
+# Find multiples of 5
+START = 1
+END = 100
+num = 
+num = 5
 
-num = 123
-print(type(num))
-
-num = 3.21
-print(type(num))
+for i in range(START, ):
+for i in range(START, END+1):
+  if i % num == 0:
+    print(i, end=' ')
