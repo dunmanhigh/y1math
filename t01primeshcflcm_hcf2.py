@@ -1,5 +1,11 @@
-# Find the Highest Common Factor (HCF) of a and b.
+# Find multiples of 7
+# Generate multiples of 7 from 1 to 100
 
-a = int(input("a: "))
-b = int(input("b: "))
+START = 1
+END = 100 
+num = 7 
+
+for i in range(START, END+1):
+  if i % num == 0:
+    print(i, end=' ')
 
