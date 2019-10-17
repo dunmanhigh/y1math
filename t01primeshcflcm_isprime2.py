@@ -8,5 +8,9 @@ prime = True
 for i in range(2,num): # won't work for 2 which is the only even prime
   if num % i == 0:
     prime = False
-  
+
+# check if number is 2
+if num == 2:
+  prime = True    
+    
 print(prime)
