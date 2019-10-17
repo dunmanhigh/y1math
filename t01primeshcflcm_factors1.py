@@ -4,6 +4,6 @@
 
 num = 18
 
-for i in range(1, num+1):  
-  if num % i == 0:
+for i in range(1, num+1): # 1 to 19  
+  if num % i == 0:          # i = 1
     print(i, end=' ')
