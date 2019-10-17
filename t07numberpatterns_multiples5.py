@@ -4,6 +4,6 @@ START = 1
 END = 100
 num = 
 
-for i in range(START, ):
+for i in range(START,END):
   if i % num == 0:
     print(i, end=' ')
