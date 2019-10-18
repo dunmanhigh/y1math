@@ -1,0 +1,5 @@
+# In Wuhu Town, the centre of the town is a fountain.
+# On the edges of the Town are the Red iron Bridge, a harbour, a swordfight arena, and a hill.
+# 100m to the Southwest of the fountain is the Red Iron Bridge, and 60m to the South of the Fountain is the harbour.
+# The hill is 72m North of the Swordfight Arena and 120m Northeast of the fountain.
+# Hence, find the distance between the hill and Red iron Bridge via the arena and the harbour.
