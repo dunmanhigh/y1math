@@ -1,7 +1,7 @@
 # Is num an integer?
 
-num = 123
-print(type(num))
-
-num = 3.21
-print(type(num))
+num = input("Enter Number")
+if print(type(num)) == int:
+  print("Yes, " + num + " is an integer.")
+else: 
+  print("No, " + num + " is not an integer.")
