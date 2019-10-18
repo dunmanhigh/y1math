@@ -1,8 +1,11 @@
 # Generate a positive even number patten from 1 to 50
+start, end = 1, 50
+  
+# iterating each number in list 
+for num in range(start + 1, end): 
+      
+    # checking condition 
+    if num % 2 == 0: 
+        print(num, end = " ") 
 
-START = 1
-END = 50
-
-for i in range(START+1, END+1, 2):
-  print(i, end=' ')
   
