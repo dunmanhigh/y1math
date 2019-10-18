@@ -2,8 +2,8 @@
 
 START = 1
 END = 100
-num = 
+num = 5
 
 for i in range(START, ):
-  if i % num == 0:
+  if i % 5 == 0:
     print(i, end=' ')
