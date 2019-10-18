@@ -18,3 +18,13 @@
 # Extension: Write Python code that generate questions,
 # i.e. numbers and query students about the number of signficant
 # figures of the given number, and give feedback to student's answer.
+for index in range(len(digits)):
+    try:
+        fig = int(digits[index])
+        if fig != 0:
+            sig_fig_count +=1
+        elif check_zero_sig(index, digits, sig_fig_count):
+            sig_fig_count += 1
+    except:
+        continue
+return sig_fig_count
