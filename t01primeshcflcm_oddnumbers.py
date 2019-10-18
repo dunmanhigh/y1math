@@ -1,4 +1,4 @@
-# What are the odd numbers from 1 to num?
+# What are all the odd numbers from 1 to num?
 
 num = 123
 for i in range(1, num+1):
