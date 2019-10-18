@@ -1,5 +1,8 @@
 # Generate multiples of 7 from 1 to 100
 
-def printMultiples(7, 100):
-for 7 in (7,100):
-    print(7, end = ' ')
+START = 1 
+END = 100
+num = 7
+
+for i in range(START, END+1):
+    print(i * num)
