@@ -3,7 +3,4 @@
 # Hence when 18 is divided by this number, the dividend is an integer and there are no remainders.
 
 num = 18
-
-for i in range(1, num+1):  
-  if num % i == 0:
-    print(i, end=' ')
+print_factors(num)
