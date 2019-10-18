@@ -1,4 +1,4 @@
 # Find the ASCII character of a number
 
-num = 65
+num = input("Enter a number")
 print(chr(num))
