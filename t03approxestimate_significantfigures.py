@@ -17,4 +17,21 @@
 #
 # Extension: Write Python code that generate questions,
 # i.e. numbers and query students about the number of signficant
-# figures of the given number, and give feedback to student's answer.
+# figures of the given number, and give feedback to student's answer
+
+
+
+# Qn: what is the number of significant figures of 192?
+# answer: 3
+
+num = 192
+digit1 = 1
+digit2 = 9
+digit3 = 2
+randomVar = 0
+if digit1 != 0:
+  randomVar += 1
+randomVar += 2 # because digit2 and digit3 is significant
+
+print("the number of significant figures num has is \(randomVar)")
+
