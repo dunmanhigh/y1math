@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<head>
 # Generate multiples of 3 from 1 to 50
 
 START = 1
