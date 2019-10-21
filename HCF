@@ -1,0 +1,10 @@
+In general:
+To find the highest common factor of two (or more) numbers, make prime factors of the numbers and identify the common prime factors.  Then the highest common factor is the product of the common prime factors.
+
+Note:
+The highest common factor can also be obtained by a trial and error method.
+
+For example, the highest common factor of 40 and 45 is 5 because 5 is the largest number which divides into both 40 and 45 exactly.
+
+Similarly, the highest common factor of 27 and 36 is 9 because 9 is the largest number which divides into both 27 and 36 exactly.
+
