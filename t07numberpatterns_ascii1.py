@@ -5,5 +5,4 @@ for i in range(26):
   print(ord('A') + i, end=' ')
 
 # check
-print()
 print(ord('Z'))
