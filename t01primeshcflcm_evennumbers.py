@@ -1,5 +1,5 @@
 # What are the even numbers from 1 to num?
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <body>
 num = 123
