@@ -4,3 +4,9 @@
 
 num = 61
 
+prime = True
+for i in range(2,num): #wont work for 2 which is the only even prime 
+  if num % i == 0:
+    prime = False
+    
+    print(prime)
