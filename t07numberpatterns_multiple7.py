@@ -5,4 +5,4 @@ END = 98
 num = +7
 
 for i in range(START, END+1):
-    print(i, end='98 ')
+    print(i, end=' ')
