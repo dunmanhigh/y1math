@@ -4,5 +4,5 @@ START = 7
 END = 98
 num = +7
 
-for i in range(START, END+1):
+for i in range(START, END,7):
     print(i, end=' ')
