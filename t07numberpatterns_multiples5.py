@@ -6,4 +6,4 @@ num = 5
 
 for i in range(START, END+5):
   if i % num == 0:
-    print(i, end='100 ')
+    print(i, end=' ')
