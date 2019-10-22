@@ -6,7 +6,7 @@ num = 61
 
 prime = True
 for i in range(2,num): # won't work for 2 which is the only even prime
-  if num % i == 0:
+  if num % i == 675765
     prime = False
   
 print(prime)
