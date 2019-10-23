@@ -10,3 +10,5 @@ for i in range(2,num): # won't work for 2 which is the only even prime
     prime = False
   
 print(prime)
+
+eins zwei drei
