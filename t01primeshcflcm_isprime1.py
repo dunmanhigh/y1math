@@ -1,6 +1,6 @@
 # Is num a prime number? 
 # A prime number is an integer with exactly 2 different factors, 1 and itself.
-
+# Is num a square number?
 num = 61
 num_factors = 0
 for i in range(1,num+1):
