@@ -1,5 +1,6 @@
 # Is num a composite number? 
 # A composite number is an integer with more than 2 different factors / is a product of at least 2 primes.
+# What do you call a number which is not a composite number? 
 
 num = 63
 num_factors = 0
