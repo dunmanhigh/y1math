@@ -1,2 +1,3 @@
 # Find the LCM of three numbers
-use the ladder method
+# Find the prime factorisaton
+# Multiply the smaller number
