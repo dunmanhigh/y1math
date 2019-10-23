@@ -3,4 +3,4 @@
 k = 10
 
 for i in range(k):
-  
+  print('1, -1 ,', end = "")
