@@ -4,6 +4,6 @@
 
 num = 18
 
-for i in range(1, num+1):  
+for i in range(1, num+1):  # i will ascend from 1 to 18
   if num % i == 0:
     print(i, end=' ')
