@@ -4,4 +4,4 @@ num = 100
 
 for i in range(1, num+1):  
   if num % i == 0:
-    print(i, end=' ')
+    print(i, end='1, 2, 4, 5, 10, 20, 25, 50, 100')
