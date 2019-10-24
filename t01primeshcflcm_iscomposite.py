@@ -10,3 +10,8 @@ if num_factors > 2:
   print(num, "is composite")
 else:
   print(num, "is not composite")
+
+  
+  
+  
+  
