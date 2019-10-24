@@ -1,8 +1,8 @@
-# Generate powers of 3 from 1 to 13
+# Generate powers of 4 from 1 to 5
 
-START = 
-END = 
-num = 
+START = 1
+END = 5
+num = 4
 
 for i in range(START, END+1):
-    print(, end=' ')
+    print(num ** i, end=' ')
