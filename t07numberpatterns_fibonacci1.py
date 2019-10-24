@@ -1,6 +1,6 @@
 # Generate the first k Fibonacci numbers
 
-k = 10
+k = 20
 
 fprev = 1
 fnext = 1
