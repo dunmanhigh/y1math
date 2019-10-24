@@ -1,6 +1,6 @@
 # What are the even numbers from 1 to num?
 
-num = 123
-for i in range(1, num+1):
-  if i % 2 == 0:
-    print(i, end=' ')
+num = 120
+even num = 120-1= 119
+119/2 = 60.5 = 60 even numbers
+    
