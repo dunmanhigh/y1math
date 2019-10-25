@@ -4,5 +4,5 @@ START = 1
 END = 10
 num = 2
 
-for i in range(START, END+1):
+for i in range(START, END):
     print(num ** i, end=' ')
