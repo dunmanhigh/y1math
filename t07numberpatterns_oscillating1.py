@@ -1,6 +1,7 @@
 # Generate oscillating pattern 1, -1, 1, -1, 1, -1, ... k times
 
-k = 10
+Oscillating pattern = [1,-1]
+Repeating pattern = [1,-1]* ‘k’
 
 for i in range(k):
   
