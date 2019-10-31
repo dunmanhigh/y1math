@@ -1,4 +1,4 @@
 # Find the HCF of n positive integers.
 
-n = 
-
+n = 12, 15
+# HCF of 12, 15 is 3
