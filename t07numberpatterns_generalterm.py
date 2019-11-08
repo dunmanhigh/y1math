@@ -23,9 +23,12 @@ for i in range(1, 8):
 
 # Repeat the above for the number sequence below
 # 2 8 18 32 50 72 98
-
+for i in range (2, 8):
+    print (6 * i- 1, end =' ')
 
 
 
 # Repeat the above for the number sequence below
 # 0 3 8 15	24 35	48
+for i in range (0, 8)
+  print (3 * i- 1,end =' ')
