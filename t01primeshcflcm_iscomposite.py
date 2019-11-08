@@ -2,7 +2,7 @@
 # A composite number is an integer with more than 2 different factors / is a product of at least 2 primes.
 
 num = 63
-num_factors = 0
+num_factors = 1,3,7,9,63
 for i in range(1,num+1):
   if num % i == 0:
     num_factors += 1
