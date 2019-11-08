@@ -14,7 +14,8 @@
 # outputs: monthly instalments p (in SGD$), total amount M (in SGD$)
 # Eg Inputs: c = 800, d = 20, r = 5, t = 2.  
 # Outputs: p and M
-
-
+c = 800, d = 20, r = 5, t = 2
+M == 0.01*d*c+0.01*(100-d)*c*(100+r)*0.01*t
+p == M/t*12
 
 # Extend the program to accept inputs from user to calculate the outputs p and M.
