@@ -1,8 +1,6 @@
-# Generate multiples of 7 from 1 to 100
-
-START = 
+#START = 
 END = 
-num = 
+num = 7
 
 for i in range(START, END+1):
   if :
