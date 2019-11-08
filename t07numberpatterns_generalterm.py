@@ -24,8 +24,14 @@ for i in range(1, 8):
 # Repeat the above for the number sequence below
 # 2 8 18 32 50 72 98
 
-
+for i in range(7):  
+    num = 2 * (i*i)
+    print(num, end=' ')
 
 
 # Repeat the above for the number sequence below
 # 0 3 8 15	24 35	48
+
+for i in range(7):  
+    num = (i*i) - 1
+    print(num, end=' ')
