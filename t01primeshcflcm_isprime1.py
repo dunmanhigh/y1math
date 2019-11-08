@@ -10,4 +10,4 @@ if num_factors == 2:
   print(num, "is prime")
 else:
   print(num, "is not prime")
-  
+  kagome
