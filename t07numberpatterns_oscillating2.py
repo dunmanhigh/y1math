@@ -1,6 +1,8 @@
-# Generate oscillating pattern 1, -1, 2, -2, 3, -3, ... k times
+# Find even numbers
 
-k = 10
+num = 123
+for i in range(1, num+1):
+  if i % 2 == 0:
+    print(i, end=' ')
 
-for i in range(1, k+1):
   
