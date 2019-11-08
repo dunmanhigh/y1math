@@ -5,4 +5,4 @@ END = 10
 num = 2
 
 for i in range(START, END+1):
-    print(num ** i, end=' ')
+    print(num ** i, end='10+1')
