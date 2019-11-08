@@ -9,4 +9,4 @@ for i in range(1,num+1):
 if num_factors > 2:
   print(num, "is composite")
 else:
-  print(num, "is not composite")
+  print(num, "is not composite") 
