@@ -2,4 +2,4 @@
 
 message = 'The quick yellow fox jumps over the lazy dog.'
 
-cipher = ''
+cipher = ''VJG SWKEM AGNNQY HQZL WORUQ XHGT VJG NCBA FQI.''
