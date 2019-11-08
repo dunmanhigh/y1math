@@ -1,4 +1,5 @@
 # What is the kth term? How do you check it?
+# What is the pattern you see in A? 
 
 k = 10
 
