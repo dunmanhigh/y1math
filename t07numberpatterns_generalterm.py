@@ -18,7 +18,7 @@ for i in range(7):
 # Alternate solution:
 
 for i in range(1, 8):
-  print(4 * i - 1, end=' ')
+  print(4 * i - 1, end='1000')
 
 
 # Repeat the above for the number sequence below
