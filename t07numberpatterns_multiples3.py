@@ -7,3 +7,4 @@ num = 3
 for i in range(START, END+1):
   if i % num == 0:
     print(i, end=' ')
+i= 3,3*2,3*3,3*4
