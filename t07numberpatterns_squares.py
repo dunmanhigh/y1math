@@ -1,3 +1,6 @@
 # Generate squares number pattern from 1 to 10
 # 1 4 9 16 25 ...
 
+Start=1(1)
+End=10(10)
+
