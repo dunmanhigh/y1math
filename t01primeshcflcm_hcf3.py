@@ -1,5 +1,1 @@
-# Find the highest common factor (HCF) of 3 numbers a, b and c.
-
-a = 
-b = 
-c = 
+q3drthb`1gydcv2 1qvekl;'.q
