@@ -1,12 +1,23 @@
 # Is num a composite number? 
-# A composite number is an integer with more than 2 different factors / is a product of at least 2 primes.
+# Python program to check if the input number is prime or composite
 
-num = 63
-num_factors = 0
-for i in range(1,num+1):
-  if num % i == 0:
-    num_factors += 1
-if num_factors > 2:
-  print(num, "is composite")
+num = 408
+
+# take input from the user
+# num = int(input("Enter a number: "))
+
+# prime numbers are greater than 1
+if num > 1:
+   # check for factors
+   for i in range(2,num):
+       if (num % i) == 0:
+           print(num,"is a composite number")
+           print(i,"times",num//i,"is",num)
+           break
+   else:
+       print(num,"is a prime number")
+       
+# if input number is less than
+# or equal to 1, it is not prime
 else:
-  print(num, "is not composite")
+   print(num,"is a composite number")
