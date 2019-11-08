@@ -5,5 +5,5 @@ END = 1000
 num = 3
 
 for i in range(START, END+1):
-  if i % num == 0:
+  if i % 3 == 0:
     print(i, end=' ')
