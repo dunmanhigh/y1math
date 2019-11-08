@@ -4,3 +4,11 @@
 
 num = 61
 
+listoffactors=[]
+for i in range(1, num+1):  
+  if num % i == 0:
+    listoffactors.append(i)
+if listoffactors[0]==1 and listoffactors[1]==num:
+  print("num is a prime")
+else:
+  print("num is not a prime")
