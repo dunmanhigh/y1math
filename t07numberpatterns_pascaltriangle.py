@@ -1,0 +1,2 @@
+# Generate the Pascal triangle
+
