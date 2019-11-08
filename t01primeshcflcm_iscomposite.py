@@ -10,3 +10,14 @@ if num_factors > 2:
   print(num, "is composite")
 else:
   print(num, "is not composite")
+  
+  
+num = 89
+factors = 0
+for i in range(0, num + 1):
+  if num % i == 0:
+    factors += 1
+if factors > 2:
+  print("num is composite")
+else:
+  print("num is not composite")
