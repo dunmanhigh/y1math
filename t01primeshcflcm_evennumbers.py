@@ -1,6 +1,9 @@
 # What are the even numbers from 1 to num?
-
-num = 123
-for i in range(1, num+1):
-  if i % 2 == 0:
-    print(i, end=' ')
+try:
+  num = int(input("enter a number")) + 1
+except ValueError:
+  print("input an integer")
+else:
+  for i in range(1, num):
+    if i % 2 == 0:
+      print(i, end='')
