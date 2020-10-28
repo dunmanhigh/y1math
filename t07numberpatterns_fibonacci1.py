@@ -1,13 +1,16 @@
-# Generate the first k Fibonacci numbers
+def recur_fibo(n) :
+  if n <= 1:
+    return n
+  else :
+    return(recur_fibo(n-1) + recur_fibo(n-2))
 
-k = 10
+nterms = 20
+# note: change nterms to whatever you want
 
-fprev = 1
-fnext = 1
-print(fprev, end=' ')
-print(fnext, end=' ')
-for i in range(k-2): # first 2 terms already printed before loop
-  fib = fprev + fnext 
-  print(fib, end=' ')
-  fprev = fnext
-  fnext = fib  
+#check if number is valid
+if nterms <= 0 :
+  print("Please enter a positive integar")
+else :
+  print("Fibo sequence: ")
+  for i in range(nterms) :
+    print(recur_fibo(i))  
