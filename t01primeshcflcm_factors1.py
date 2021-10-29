@@ -5,5 +5,5 @@
 num = 18
 
 for i in range(1, num+1):  
-  if num % i == 0:
-    print(i, end=' ')
+  if num % i == 0:    # if remainder after dividing by i is 0
+    print(i, end=' ') # print on the same line with a space separator
